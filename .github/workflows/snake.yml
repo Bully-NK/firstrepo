@@ -3,7 +3,7 @@ name: generate animation
 on:
   # run automatically every 24 hours
   schedule:
-    - cron: '10 9 * * *'  将这两行解开注释就可以使用了
+    - cron: '10 9 * * *' 
 
   # allows to manually run the job at any time
   workflow_dispatch:
